@@ -123,7 +123,7 @@ export default {
             >Iscriviti alla nostra newsletter</label
           >
         </div>
-        <button type="submit" class="btn">Invia</button>
+        <button type="submit" class="btn btn-send">Invia</button>
       </form>
     </div>
   </div>
@@ -150,5 +150,10 @@ label {
 
 .btn {
   background-color: white;
+}
+
+.btn-send:hover{
+  color: white;
+  border: 1px solid white;
 }
 </style>
